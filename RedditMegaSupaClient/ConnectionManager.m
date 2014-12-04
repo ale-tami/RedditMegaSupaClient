@@ -23,6 +23,7 @@
      dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse * response, NSError *error) {
          
          dispatch_async(dispatch_get_main_queue(), ^{
+             NSLog(@"Error: %@", error);
              [self.delegate responseWithJSON:data];
          });
          

@@ -88,9 +88,7 @@
 
 -(void)imgToFullScreen:(RedditTableViewCell *) cell
 {
-    
-    NSLog(@"%@", cell.authorLabel.text);
-    
+        
     __block CGRect prevFrame;
     self.imageView.image = cell.thumbnailImageView.image;
     if ([UIScreen mainScreen].bounds.size.height != self.imageView.frame.size.height) {

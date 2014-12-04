@@ -11,6 +11,7 @@
 		4D0880211A2A89F3002D648D /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0880201A2A89F3002D648D /* ConnectionManager.m */; };
 		4DB7A2F41A2B6CA9009DC1FB /* RedditFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7A2F31A2B6CA9009DC1FB /* RedditFeed.m */; };
 		4DB7A2FA1A2B940F009DC1FB /* RedditViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7A2F91A2B940F009DC1FB /* RedditViewModel.m */; };
+		4DB7FC341A30D8D00035EFA1 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB7FC331A30D8D00035EFA1 /* placeholder.png */; };
 		4DB977D81A2BCBE100B2A864 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB977D71A2BCBE100B2A864 /* Common.m */; };
 		4DC0B9191A2A5ACE00AE178F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0B9181A2A5ACE00AE178F /* main.m */; };
 		4DC0B91C1A2A5ACE00AE178F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0B91B1A2A5ACE00AE178F /* AppDelegate.m */; };
@@ -40,6 +41,7 @@
 		4DB7A2F31A2B6CA9009DC1FB /* RedditFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedditFeed.m; sourceTree = "<group>"; };
 		4DB7A2F81A2B940F009DC1FB /* RedditViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditViewModel.h; sourceTree = "<group>"; };
 		4DB7A2F91A2B940F009DC1FB /* RedditViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedditViewModel.m; sourceTree = "<group>"; };
+		4DB7FC331A30D8D00035EFA1 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 		4DB977D61A2BCBE100B2A864 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		4DB977D71A2BCBE100B2A864 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		4DC0B9131A2A5ACE00AE178F /* RedditMegaSupaClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedditMegaSupaClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +146,7 @@
 				4DC0B9201A2A5ACE00AE178F /* Main.storyboard */,
 				4DC0B9251A2A5ACE00AE178F /* LaunchScreen.xib */,
 				4DC0B9231A2A5ACE00AE178F /* Images.xcassets */,
+				4DB7FC331A30D8D00035EFA1 /* placeholder.png */,
 			);
 			path = RedditMegaSupaClient;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DC0B9221A2A5ACE00AE178F /* Main.storyboard in Resources */,
+				4DB7FC341A30D8D00035EFA1 /* placeholder.png in Resources */,
 				4DC0B9271A2A5ACE00AE178F /* LaunchScreen.xib in Resources */,
 				4DC0B9241A2A5ACE00AE178F /* Images.xcassets in Resources */,
 			);
@@ -406,7 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RedditMegaSupaClient/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -417,7 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RedditMegaSupaClient/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

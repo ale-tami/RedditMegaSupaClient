@@ -30,8 +30,8 @@
 
 - (void)awakeFromNib {
     self.thumbnailImageView.image = [UIImage imageNamed:@"Placeholder"];
-    self.thumbnailImageView.contentMode = UIViewContentModeScaleAspectFill;
-    [self.thumbnailImageView setNeedsDisplay];
+    self.thumbnailImageView.contentMode = UIViewContentModeScaleAspectFit;
+  //  [self.thumbnailImageView setNeedsDisplay];
     
     self.activityIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
     self.activityIndicator.alpha = 1.0;
@@ -43,8 +43,10 @@
 
 - (void) setImage:(UIImage*) image
 {
-    self.thumbnailImageView.image = image;
-    
+   
+    self.thumbnailImageView.image = (image)? image : [UIImage imageNamed:@"Placeholder"];
+  //  self.thumbnailImageView.image = image;
+
     [self.activityIndicator stopAnimating];
 }
 
